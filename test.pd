@@ -2,5 +2,16 @@
 #X obj 126 78 key;
 #X obj 128 134 sel 122;
 #X obj 128 158 print z;
+#X obj 121 17 key;
+#X floatatom 121 46 4 0 0 0 - - - 0;
+#X obj 271 17 keyname;
+#X symbolatom 317 46 10 0 0 0 - - - 0;
+#X obj 190 17 keyup;
+#X floatatom 190 46 4 0 0 0 - - - 0;
+#X floatatom 271 46 4 0 0 0 - - - 0;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
+#X connect 3 0 4 0;
+#X connect 5 0 9 0;
+#X connect 5 1 6 0;
+#X connect 7 0 8 0;
