@@ -1,0 +1,6 @@
+#N canvas 659 272 450 300 12;
+#X obj 126 78 key;
+#X obj 128 134 sel 122;
+#X obj 128 158 print z;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
